@@ -12,7 +12,7 @@ mixin Client {
     }
     try {
       return Platform.isAndroid
-          ? 'http://10.0.2.2:8090'
+          ? 'http://192.168.100.158:8090'
           : 'http://127.0.0.1:8090';
     } catch (_) {
       return 'http://127.0.0.1:8090';

@@ -18,8 +18,10 @@ pluginManagement {
 
 plugins {
     id "dev.flutter.flutter-gradle-plugin" version "1.0.0" apply false
-    id "com.android.application" version "7.3.0" apply false // Match your existing AGP version
-    id "org.jetbrains.kotlin.android" version "1.7.10" apply false // Match your existing Kotlin version
+    // UPDATED: Changed from 7.3.0 to 8.3.2
+    id "com.android.application" version "8.3.2" apply false
+    // UPDATED: Changed from 1.7.10 to 1.9.23
+    id "org.jetbrains.kotlin.android" version "1.9.23" apply false
 }
 
 include ":app"
